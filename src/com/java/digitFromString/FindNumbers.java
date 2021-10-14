@@ -1,6 +1,6 @@
 package com.java.digitFromString;
 
-public class SetOfDigits {
+public class FindNumbers {
 
 	static String extractInt(String str) {
 		
