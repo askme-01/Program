@@ -2,7 +2,7 @@ package com.java.digitFromString;
 
 public class FindNumbers {
 
-	static String extractInt(String str) {
+	static String extractNumber(String str) {
 		
 	      // Replacing every non-digit number
         // with a space(" ")
@@ -26,7 +26,7 @@ public class FindNumbers {
     public static void main(String[] args)
     {
         String str = "Roshan : 10; Akshay : 02; Chetana : 22";
-        System.out.print(extractInt(str));
+        System.out.print(extractNumber(str));
     }
 
 }
