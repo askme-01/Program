@@ -3,8 +3,8 @@ package com.immutableclass.mutablefields;
 public class Test {
 public static void main(String[] args) {
 
-	Address ad=new Address("chiplun", "maharashtra");
-	Student st=new Student(101, "akshay", ad);
+
+	Student st=new Student(101, "akshay", new Address("chiplun", "maharashtra"));
 	
 	System.out.println(st);
 	

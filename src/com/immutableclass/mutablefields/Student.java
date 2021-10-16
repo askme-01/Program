@@ -1,5 +1,9 @@
 package com.immutableclass.mutablefields;
 
+//why do we need immutable class?
+//as immutable class is threadsafe and easy for testing(as value does not change)
+
+
 public class Student {
 private final int StudentId;
 private final String StudentName;
@@ -10,6 +14,7 @@ public Student(int studentId, String studentName, Address address) {
 	StudentName = studentName;
 	this.address = address;
 }
+
 @Override
 public String toString() {
 	return "Student [StudentId=" + StudentId + ", StudentName=" + StudentName + ", address=" + address + "]";
